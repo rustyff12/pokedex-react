@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--clr-bg-main: #1c1b1b;
+	--clr-secondary: #03a4da;
+	--clr-accent: #f25917;
+	--clr-white: #e4e4e4;
+	--clr-black: #000000;
+}
+
+body {
+	font-family: "Helvetica, Arial, sans-serif";
+	color: var(--clr-white);
+	background-color: var(--clr-bg-main);
+	min-height: 100dvh;
+}
+
+/* 481px — 768px: iPads, Tablets */
+@media screen and (min-width: 480px) {
+}
+/* 769px — 1024px: Small screens, laptops */
+@media screen and (min-width: 768px) {
+}
+/* 1025px — 1200px: Desktops, large screens */
+@media screen and (min-width: 1024px) {
+}
+/* 1201px and more —  Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+}
+
+/* 
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV 
+*/
