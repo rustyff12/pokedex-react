@@ -21,6 +21,23 @@ body {
 	min-height: 100dvh;
 }
 
+.header-container {
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	background-color: var(--clr-black);
+}
+
+.main-container {
+	padding: 1.5rem;
+}
+
+.search-container form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
 /* 481px — 768px: iPads, Tablets */
 @media screen and (min-width: 480px) {
 }
